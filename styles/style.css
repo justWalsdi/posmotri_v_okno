@@ -60,8 +60,6 @@ ol {
   align-items: end;
   gap: 30px;
   margin: 0 30px;
-  /* padding: 133px 0; */
-  /* height: 534px; */
 }
 
 .result {
@@ -272,6 +270,7 @@ a.content__card-link:focus-visible {
   flex-direction: column;
   gap: 6px;
   line-height: 1;
+  width: 100%;
 }
 
 .content__video-card-title {
