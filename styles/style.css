@@ -153,6 +153,7 @@ input::placeholder {
 
 .search-form__fieldset:nth-child(2) {
   align-self: flex-start;
+  padding-left: 10px;
 }
 
 label {
@@ -161,24 +162,19 @@ label {
   vertical-align: middle;
 }
 
-.search-form__pseudo-checkbox {
-  display: inline-block;
+input[type="checkbox"] + span {
   width: 19px;
   height: 19px;
-  border: 1px solid currentColor;
-  position: relative;
-  vertical-align: middle;
-  margin-right: 1px;
+  border: 1px solid #fff;
 }
 
 input[type="checkbox"]:checked + span::after {
-  position: absolute;
   content: "";
-  background-color: white;
-  width: 15px;
-  height: 15px;
-  margin: auto auto;
-  inset: 0;
+  width: 17px;
+  height: 17px;
+  border: 1px solid #1b1919;
+  background-color: #fff;
+  display: inline-block;
 }
 
 .search-form__textfield:focus {
