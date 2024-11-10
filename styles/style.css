@@ -87,7 +87,7 @@ h2 {
   font-size: 18px;
 }
 
-fieldset {
+.search-form__fieldset {
   border: none;
 }
 
@@ -131,7 +131,7 @@ fieldset {
   border-bottom: 1px solid currentColor;
 }
 
-input::placeholder {
+.search-form__label::placeholder {
   opacity: 0.8;
 }
 
@@ -158,7 +158,7 @@ input {
   padding-left: 10px;
 }
 
-label {
+.search-form__label {
   display: inline-block;
   font-weight: normal;
   vertical-align: middle;
@@ -184,7 +184,7 @@ input[type="checkbox"]:checked + span::after {
   outline-offset: 1px;
 }
 
-label:has(input[type="checkbox"]:focus) {
+.search-form__label:has(input[type="checkbox"]:focus) {
   outline: 1px solid currentColor;
 }
 
