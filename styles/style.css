@@ -135,6 +135,10 @@ input::placeholder {
   opacity: 0.8;
 }
 
+input {
+  appearance: none;
+}
+
 .search-form {
   width: 100%;
   display: flex;
