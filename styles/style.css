@@ -72,6 +72,8 @@ ol {
 .result__video-container {
   position: relative;
   width: 100%;
+  object-fit: contain;
+  object-position: center bottom;
 }
 
 .result__video {
@@ -107,6 +109,10 @@ h2 {
 }
 
 .button:focus {
+  outline: none;
+}
+
+.button:focus-visible {
   outline: 1px solid currentColor;
   outline-offset: 1px;
 }
@@ -282,6 +288,7 @@ a.content__card-link:focus-visible {
   width: 194px;
   height: auto;
   object-fit: contain;
+  object-position: right center;
   align-self: self-end;
 }
 
