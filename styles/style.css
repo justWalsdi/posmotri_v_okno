@@ -282,6 +282,7 @@ a.content__card-link:focus-visible {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 30px;
+  word-break: break-all;
 }
 
 .content__video-card-thumbnail {
