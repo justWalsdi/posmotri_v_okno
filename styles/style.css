@@ -159,9 +159,11 @@ input {
 }
 
 .search-form__label {
-  display: inline-block;
   font-weight: normal;
-  vertical-align: middle;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  padding: 0 1px;
 }
 
 input[type="checkbox"] + span {
@@ -188,16 +190,9 @@ input[type="checkbox"]:checked + span::after {
   outline: 1px solid currentColor;
 }
 
-.search-form__label-text:hover {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
   user-select: none;
-}
-
-.search-form__label {
-  display: flex;
-  gap: 5px;
-  align-items: center;
-  padding: 0 1px;
 }
 
 .search-form__textfield {
@@ -207,7 +202,7 @@ input[type="checkbox"]:checked + span::after {
 .content__list {
   position: relative;
   height: 298px;
-  overflow: scroll;
+  overflow-y: scroll;
   display: flex;
   flex-direction: column;
   gap: 30px;
