@@ -202,7 +202,7 @@ input[type="checkbox"]:checked + span::after {
 .content__list {
   position: relative;
   height: 298px;
-  overflow-y: scroll;
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
   gap: 30px;
