@@ -203,6 +203,7 @@ label:has(input[type="checkbox"]:focus) {
 }
 
 .content__list {
+  position: relative;
   height: 298px;
   overflow: scroll;
   display: flex;
